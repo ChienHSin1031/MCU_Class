@@ -2,14 +2,15 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/oberon_backend_ecdh.o: \
  D:\Nordic\components\libraries\crypto\backend\oberon\oberon_backend_ecdh.c \
  ../config/sdk_config.h \
  d:\nordic\components\libraries\util\nordic_common.h \
- D:/SEGGER/include/stdint.h \
+ D:/SEGGER_original_file/include/stdint.h \
  d:\nordic\components\libraries\crypto\nrf_crypto_ecc.h \
- D:/SEGGER/include/stddef.h D:/SEGGER/include/__crossworks.h \
+ D:/SEGGER_original_file/include/stddef.h \
+ D:/SEGGER_original_file/include/__crossworks.h \
  d:\nordic\components\libraries\crypto\nrf_crypto_error.h \
  d:\nordic\components\libraries\util\sdk_errors.h \
  d:\nordic\components\softdevice\s132\headers\nrf_error.h \
  d:\nordic\components\libraries\crypto\nrf_crypto_ecc_shared.h \
- D:/SEGGER/include/stdbool.h \
+ D:/SEGGER_original_file/include/stdbool.h \
  d:\nordic\components\libraries\crypto\nrf_crypto_ecc_backend.h \
  d:\nordic\components\libraries\crypto\backend\cc310\cc310_backend_ecc.h \
  d:\nordic\components\libraries\crypto\backend\cc310_bl\cc310_bl_backend_ecc.h \
@@ -46,7 +47,7 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/oberon_backend_ecdh.o: \
  d:\nordic\modules\nrfx\mdk\compiler_abstraction.h \
  d:\nordic\components\libraries\crypto\nrf_crypto_mem.h \
  d:\nordic\components\libraries\util\sdk_common.h \
- D:/SEGGER/include/string.h \
+ D:/SEGGER_original_file/include/string.h \
  d:\nordic\components\libraries\util\nordic_common.h \
  d:\nordic\modules\nrfx\mdk\compiler_abstraction.h \
  d:\nordic\components\libraries\util\sdk_os.h \

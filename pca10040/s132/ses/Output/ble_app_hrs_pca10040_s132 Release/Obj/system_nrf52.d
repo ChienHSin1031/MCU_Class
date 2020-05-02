@@ -1,7 +1,8 @@
 Output/ble_app_hrs_pca10040_s132\ Release/Obj/system_nrf52.o: \
- D:\Nordic\modules\nrfx\mdk\system_nrf52.c D:/SEGGER/include/stdint.h \
- D:/SEGGER/include/stdbool.h D:\Nordic\modules\nrfx\mdk\nrf.h \
- D:\Nordic\modules\nrfx\mdk\nrf52.h \
+ D:\Nordic\modules\nrfx\mdk\system_nrf52.c \
+ D:/SEGGER_original_file/include/stdint.h \
+ D:/SEGGER_original_file/include/stdbool.h \
+ D:\Nordic\modules\nrfx\mdk\nrf.h D:\Nordic\modules\nrfx\mdk\nrf52.h \
  d:\nordic\components\toolchain\cmsis\include\core_cm4.h \
  d:\nordic\components\toolchain\cmsis\include\core_cmInstr.h \
  d:\nordic\components\toolchain\cmsis\include\cmsis_gcc.h \

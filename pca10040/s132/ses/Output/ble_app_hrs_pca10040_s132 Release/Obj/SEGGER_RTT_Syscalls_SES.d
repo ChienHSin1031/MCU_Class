@@ -4,7 +4,7 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/SEGGER_RTT_Syscalls_SES.o: \
  D:\Nordic\external\segger_rtt\SEGGER_RTT_Conf.h \
  d:\nordic\components\libraries\util\nordic_common.h \
  d:\nordic\components\libraries\util\app_util_platform.h \
- D:/SEGGER/include/stdint.h \
+ D:/SEGGER_original_file/include/stdint.h \
  d:\nordic\modules\nrfx\mdk\compiler_abstraction.h \
  d:\nordic\modules\nrfx\mdk\nrf.h d:\nordic\modules\nrfx\mdk\nrf52.h \
  d:\nordic\components\toolchain\cmsis\include\core_cm4.h \
@@ -25,12 +25,15 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/SEGGER_RTT_Syscalls_SES.o: \
  d:\nordic\components\softdevice\s132\headers\nrf_nvic.h \
  d:\nordic\components\libraries\util\nrf_assert.h \
  d:\nordic\components\libraries\util\app_error.h \
- D:/SEGGER/include/stdio.h D:/SEGGER/include/__crossworks.h \
- D:/SEGGER/include/stdbool.h \
+ D:/SEGGER_original_file/include/stdio.h \
+ D:/SEGGER_original_file/include/__crossworks.h \
+ D:/SEGGER_original_file/include/stdbool.h \
  d:\nordic\components\libraries\util\sdk_errors.h \
  d:\nordic\components\softdevice\s132\headers\nrf_error.h \
  d:\nordic\components\libraries\util\nordic_common.h \
  d:\nordic\components\libraries\util\app_error_weak.h \
- D:/SEGGER/include/stdarg.h D:/SEGGER/include/limits.h \
- D:/SEGGER/include/__libc.h D:/SEGGER/include/__vfprintf.h \
- D:/SEGGER/include/__argtype.h
+ D:/SEGGER_original_file/include/stdarg.h \
+ D:/SEGGER_original_file/include/limits.h \
+ D:/SEGGER_original_file/include/__libc.h \
+ D:/SEGGER_original_file/include/__vfprintf.h \
+ D:/SEGGER_original_file/include/__argtype.h

@@ -2,12 +2,14 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/nrf_fstorage.o: \
  D:\Nordic\components\libraries\fstorage\nrf_fstorage.c \
  ../config/sdk_config.h \
  D:\Nordic\components\libraries\fstorage\nrf_fstorage.h \
- D:/SEGGER/include/stdint.h D:/SEGGER/include/stdbool.h \
+ D:/SEGGER_original_file/include/stdint.h \
+ D:/SEGGER_original_file/include/stdbool.h \
  d:\nordic\components\libraries\util\sdk_errors.h \
  d:\nordic\components\softdevice\s132\headers\nrf_error.h \
  d:\nordic\components\libraries\experimental_section_vars\nrf_section.h \
  d:\nordic\components\libraries\util\nordic_common.h \
- D:/SEGGER/include/stddef.h D:/SEGGER/include/__crossworks.h \
+ D:/SEGGER_original_file/include/stddef.h \
+ D:/SEGGER_original_file/include/__crossworks.h \
  d:\nordic\components\libraries\util\sdk_macros.h \
  d:\nordic\components\libraries\util\nrf_assert.h \
  d:\nordic\modules\nrfx\mdk\nrf.h d:\nordic\modules\nrfx\mdk\nrf52.h \
@@ -24,7 +26,7 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/nrf_fstorage.o: \
  d:\nordic\modules\nrfx\mdk\compiler_abstraction.h \
  d:\nordic\components\libraries\log\nrf_log.h \
  d:\nordic\components\libraries\util\sdk_common.h \
- D:/SEGGER/include/string.h \
+ D:/SEGGER_original_file/include/string.h \
  d:\nordic\components\libraries\util\nordic_common.h \
  d:\nordic\modules\nrfx\mdk\compiler_abstraction.h \
  d:\nordic\components\libraries\util\sdk_os.h \

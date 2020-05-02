@@ -2,12 +2,13 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/nrf_crypto_ecdsa.o: \
  D:\Nordic\components\libraries\crypto\nrf_crypto_ecdsa.c \
  D:\Nordic\components\libraries\crypto\nrf_crypto_error.h \
  d:\nordic\components\libraries\util\sdk_errors.h \
- D:/SEGGER/include/stdint.h \
+ D:/SEGGER_original_file/include/stdint.h \
  d:\nordic\components\softdevice\s132\headers\nrf_error.h \
  D:\Nordic\components\libraries\crypto\nrf_crypto_ecc.h \
- D:/SEGGER/include/stddef.h D:/SEGGER/include/__crossworks.h \
+ D:/SEGGER_original_file/include/stddef.h \
+ D:/SEGGER_original_file/include/__crossworks.h \
  D:\Nordic\components\libraries\crypto\nrf_crypto_ecc_shared.h \
- D:/SEGGER/include/stdbool.h \
+ D:/SEGGER_original_file/include/stdbool.h \
  D:\Nordic\components\libraries\crypto\nrf_crypto_ecc_backend.h \
  ../config/sdk_config.h \
  d:\nordic\components\libraries\util\nordic_common.h \
@@ -30,7 +31,7 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/nrf_crypto_ecdsa.o: \
  d:\nordic\components\libraries\crypto\backend\optiga\optiga_backend_ecdsa.h \
  D:\Nordic\components\libraries\crypto\nrf_crypto_mem.h \
  d:\nordic\components\libraries\util\sdk_common.h \
- D:/SEGGER/include/string.h \
+ D:/SEGGER_original_file/include/string.h \
  d:\nordic\components\libraries\util\nordic_common.h \
  d:\nordic\modules\nrfx\mdk\compiler_abstraction.h \
  d:\nordic\components\libraries\util\sdk_os.h \

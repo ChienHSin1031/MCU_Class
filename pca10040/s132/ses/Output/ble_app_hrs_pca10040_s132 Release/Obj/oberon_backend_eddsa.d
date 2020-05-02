@@ -2,10 +2,12 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/oberon_backend_eddsa.o: \
  D:\Nordic\components\libraries\crypto\backend\oberon\oberon_backend_eddsa.c \
  ../config/sdk_config.h \
  d:\nordic\components\libraries\util\nordic_common.h \
- D:/SEGGER/include/stdint.h D:/SEGGER/include/stdbool.h \
- D:/SEGGER/include/string.h D:/SEGGER/include/__crossworks.h \
+ D:/SEGGER_original_file/include/stdint.h \
+ D:/SEGGER_original_file/include/stdbool.h \
+ D:/SEGGER_original_file/include/string.h \
+ D:/SEGGER_original_file/include/__crossworks.h \
  d:\nordic\components\libraries\crypto\nrf_crypto_ecc.h \
- D:/SEGGER/include/stddef.h \
+ D:/SEGGER_original_file/include/stddef.h \
  d:\nordic\components\libraries\crypto\nrf_crypto_error.h \
  d:\nordic\components\libraries\util\sdk_errors.h \
  d:\nordic\components\softdevice\s132\headers\nrf_error.h \
@@ -50,7 +52,7 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/oberon_backend_eddsa.o: \
  d:\nordic\external\mbedtls\include\mbedtls\aes.h \
  d:\nordic\external\nrf_tls\mbedtls\nrf_crypto\config\nrf_crypto_mbedtls_config.h \
  d:\nordic\external\mbedtls\include\mbedtls\check_config.h \
- D:/SEGGER/include/limits.h \
+ D:/SEGGER_original_file/include/limits.h \
  d:\nordic\components\libraries\crypto\nrf_crypto_rng_shared.h \
  d:\nordic\components\libraries\crypto\backend\optiga\optiga_backend_rng.h \
  d:\nordic\components\libraries\crypto\nrf_crypto_eddsa.h \

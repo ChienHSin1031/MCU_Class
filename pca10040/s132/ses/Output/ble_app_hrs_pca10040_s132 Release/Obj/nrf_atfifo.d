@@ -1,9 +1,11 @@
 Output/ble_app_hrs_pca10040_s132\ Release/Obj/nrf_atfifo.o: \
  D:\Nordic\components\libraries\atomic_fifo\nrf_atfifo.c \
- D:/SEGGER/include/string.h D:/SEGGER/include/__crossworks.h \
- D:/SEGGER/include/stdint.h D:/SEGGER/include/stdbool.h \
+ D:/SEGGER_original_file/include/string.h \
+ D:/SEGGER_original_file/include/__crossworks.h \
+ D:/SEGGER_original_file/include/stdint.h \
+ D:/SEGGER_original_file/include/stdbool.h \
  d:\nordic\components\libraries\util\app_util.h \
- D:/SEGGER/include/stddef.h \
+ D:/SEGGER_original_file/include/stddef.h \
  d:\nordic\modules\nrfx\mdk\compiler_abstraction.h \
  d:\nordic\components\libraries\util\nordic_common.h \
  d:\nordic\modules\nrfx\mdk\nrf.h d:\nordic\modules\nrfx\mdk\nrf52.h \

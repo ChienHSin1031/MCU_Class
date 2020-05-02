@@ -1,9 +1,9 @@
 Output/ble_app_hrs_pca10040_s132\ Release/Obj/HY_GPIOTE.o: \
  D:\Nordic\examples\ble_peripheral\ble_app_hrs\HY\HY_GPIOTE.c \
- D:/SEGGER/include/stdbool.h d:\nordic\modules\nrfx\mdk\nrf.h \
- d:\nordic\modules\nrfx\mdk\nrf52.h \
+ D:/SEGGER_original_file/include/stdbool.h \
+ d:\nordic\modules\nrfx\mdk\nrf.h d:\nordic\modules\nrfx\mdk\nrf52.h \
  d:\nordic\components\toolchain\cmsis\include\core_cm4.h \
- D:/SEGGER/include/stdint.h \
+ D:/SEGGER_original_file/include/stdint.h \
  d:\nordic\components\toolchain\cmsis\include\core_cmInstr.h \
  d:\nordic\components\toolchain\cmsis\include\cmsis_gcc.h \
  d:\nordic\components\toolchain\cmsis\include\core_cmFunc.h \
@@ -18,7 +18,8 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/HY_GPIOTE.o: \
  d:\nordic\modules\nrfx\drivers\include\nrfx_gpiote.h \
  d:\nordic\modules\nrfx\nrfx.h d:\nordic\integration\nrfx\nrfx_config.h \
  ../config/sdk_config.h d:\nordic\modules\nrfx\drivers\nrfx_common.h \
- D:/SEGGER/include/stddef.h D:/SEGGER/include/__crossworks.h \
+ D:/SEGGER_original_file/include/stddef.h \
+ D:/SEGGER_original_file/include/__crossworks.h \
  d:\nordic\modules\nrfx\mdk\nrf_peripherals.h \
  d:\nordic\modules\nrfx\mdk\nrf52832_peripherals.h \
  d:\nordic\integration\nrfx\nrfx_glue.h \
@@ -40,7 +41,7 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/HY_GPIOTE.o: \
  d:\nordic\components\softdevice\s132\headers\nrf_nvic.h \
  d:\nordic\components\libraries\util\nrf_assert.h \
  d:\nordic\components\libraries\util\app_error.h \
- D:/SEGGER/include/stdio.h \
+ D:/SEGGER_original_file/include/stdio.h \
  d:\nordic\components\libraries\util\sdk_errors.h \
  d:\nordic\components\softdevice\s132\headers\nrf_error.h \
  d:\nordic\components\libraries\util\app_error_weak.h \
@@ -58,7 +59,8 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/HY_GPIOTE.o: \
  d:\nordic\components\boards\pca10040.h \
  d:\nordic\components\libraries\log\nrf_log.h \
  d:\nordic\components\libraries\util\sdk_common.h \
- D:/SEGGER/include/string.h d:\nordic\components\libraries\util\sdk_os.h \
+ D:/SEGGER_original_file/include/string.h \
+ d:\nordic\components\libraries\util\sdk_os.h \
  d:\nordic\components\libraries\util\app_util.h \
  d:\nordic\components\libraries\util\sdk_macros.h \
  d:\nordic\components\libraries\experimental_section_vars\nrf_section.h \

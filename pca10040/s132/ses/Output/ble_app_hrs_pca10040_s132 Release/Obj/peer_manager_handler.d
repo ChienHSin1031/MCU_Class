@@ -2,7 +2,7 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/peer_manager_handler.o: \
  D:\Nordic\components\ble\peer_manager\peer_manager_handler.c \
  D:\Nordic\components\ble\peer_manager\peer_manager_handler.h \
  d:\nordic\components\softdevice\s132\headers\ble.h \
- D:/SEGGER/include/stdint.h \
+ D:/SEGGER_original_file/include/stdint.h \
  d:\nordic\components\softdevice\s132\headers\nrf_svc.h \
  d:\nordic\components\softdevice\s132\headers\nrf_error.h \
  d:\nordic\components\softdevice\s132\headers\ble_err.h \
@@ -27,17 +27,17 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/peer_manager_handler.o: \
  d:\nordic\modules\nrfx\mdk\compiler_abstraction.h \
  d:\nordic\components\softdevice\s132\headers\ble_gatts.h \
  D:\Nordic\components\ble\peer_manager\peer_manager.h \
- D:/SEGGER/include/stdbool.h \
+ D:/SEGGER_original_file/include/stdbool.h \
  d:\nordic\components\libraries\util\sdk_common.h \
- D:/SEGGER/include/string.h D:/SEGGER/include/__crossworks.h \
- ../config/sdk_config.h \
+ D:/SEGGER_original_file/include/string.h \
+ D:/SEGGER_original_file/include/__crossworks.h ../config/sdk_config.h \
  d:\nordic\components\libraries\util\nordic_common.h \
  d:\nordic\modules\nrfx\mdk\compiler_abstraction.h \
  d:\nordic\components\libraries\util\sdk_os.h \
  d:\nordic\components\libraries\util\sdk_errors.h \
  d:\nordic\components\softdevice\s132\headers\nrf_error.h \
  d:\nordic\components\libraries\util\app_util.h \
- D:/SEGGER/include/stddef.h \
+ D:/SEGGER_original_file/include/stddef.h \
  d:\nordic\components\softdevice\s132\headers\nrf52\nrf_mbr.h \
  d:\nordic\components\softdevice\s132\headers\nrf_svc.h \
  d:\nordic\components\libraries\util\sdk_macros.h \
@@ -53,7 +53,7 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/peer_manager_handler.o: \
  d:\nordic\components\softdevice\s132\headers\nrf_error_soc.h \
  d:\nordic\components\softdevice\s132\headers\nrf_nvic.h \
  d:\nordic\components\libraries\util\app_error.h \
- D:/SEGGER/include/stdio.h \
+ D:/SEGGER_original_file/include/stdio.h \
  d:\nordic\components\libraries\util\app_error_weak.h \
  D:\Nordic\components\ble\peer_manager\peer_database.h \
  D:\Nordic\components\ble\peer_manager\peer_manager_internal.h \
@@ -74,5 +74,5 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/peer_manager_handler.o: \
  d:\nordic\components\libraries\log\src\nrf_log_ctrl_internal.h \
  d:\nordic\components\libraries\log\nrf_log_backend_interface.h \
  d:\nordic\components\libraries\memobj\nrf_memobj.h \
- D:/SEGGER/include/stdlib.h \
+ D:/SEGGER_original_file/include/stdlib.h \
  d:\nordic\components\libraries\balloc\nrf_balloc.h

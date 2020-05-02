@@ -1,8 +1,10 @@
 Output/ble_app_hrs_pca10040_s132\ Release/Obj/ble_advdata.o: \
  D:\Nordic\components\ble\common\ble_advdata.c \
- D:\Nordic\components\ble\common\ble_advdata.h D:/SEGGER/include/stdint.h \
- D:/SEGGER/include/stdbool.h D:/SEGGER/include/string.h \
- D:/SEGGER/include/__crossworks.h \
+ D:\Nordic\components\ble\common\ble_advdata.h \
+ D:/SEGGER_original_file/include/stdint.h \
+ D:/SEGGER_original_file/include/stdbool.h \
+ D:/SEGGER_original_file/include/string.h \
+ D:/SEGGER_original_file/include/__crossworks.h \
  d:\nordic\components\softdevice\s132\headers\ble.h \
  d:\nordic\components\softdevice\s132\headers\nrf_svc.h \
  d:\nordic\components\softdevice\s132\headers\nrf_error.h \
@@ -34,7 +36,7 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/ble_advdata.o: \
  d:\nordic\components\libraries\util\sdk_errors.h \
  d:\nordic\components\softdevice\s132\headers\nrf_error.h \
  d:\nordic\components\libraries\util\app_util.h \
- D:/SEGGER/include/stddef.h \
+ D:/SEGGER_original_file/include/stddef.h \
  d:\nordic\components\softdevice\s132\headers\nrf52\nrf_mbr.h \
  d:\nordic\components\softdevice\s132\headers\nrf_svc.h \
  d:\nordic\components\libraries\util\sdk_macros.h \

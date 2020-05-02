@@ -2,10 +2,12 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/nrfx_atomic.o: \
  D:\Nordic\modules\nrfx\soc\nrfx_atomic.c \
  D:\Nordic\modules\nrfx\soc\nrfx_atomic.h d:\nordic\modules\nrfx\nrfx.h \
  d:\nordic\integration\nrfx\nrfx_config.h ../config/sdk_config.h \
- d:\nordic\modules\nrfx\drivers\nrfx_common.h D:/SEGGER/include/stdint.h \
- D:/SEGGER/include/stddef.h D:/SEGGER/include/__crossworks.h \
- D:/SEGGER/include/stdbool.h d:\nordic\modules\nrfx\mdk\nrf.h \
- d:\nordic\modules\nrfx\mdk\nrf52.h \
+ d:\nordic\modules\nrfx\drivers\nrfx_common.h \
+ D:/SEGGER_original_file/include/stdint.h \
+ D:/SEGGER_original_file/include/stddef.h \
+ D:/SEGGER_original_file/include/__crossworks.h \
+ D:/SEGGER_original_file/include/stdbool.h \
+ d:\nordic\modules\nrfx\mdk\nrf.h d:\nordic\modules\nrfx\mdk\nrf52.h \
  d:\nordic\components\toolchain\cmsis\include\core_cm4.h \
  d:\nordic\components\toolchain\cmsis\include\core_cmInstr.h \
  d:\nordic\components\toolchain\cmsis\include\cmsis_gcc.h \
@@ -38,7 +40,7 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/nrfx_atomic.o: \
  d:\nordic\components\softdevice\s132\headers\nrf_nvic.h \
  d:\nordic\components\libraries\util\nrf_assert.h \
  d:\nordic\components\libraries\util\app_error.h \
- D:/SEGGER/include/stdio.h \
+ D:/SEGGER_original_file/include/stdio.h \
  d:\nordic\components\libraries\util\sdk_errors.h \
  d:\nordic\components\softdevice\s132\headers\nrf_error.h \
  d:\nordic\components\libraries\util\app_error_weak.h \

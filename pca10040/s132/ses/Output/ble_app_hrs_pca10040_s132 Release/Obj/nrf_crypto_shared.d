@@ -5,8 +5,8 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/nrf_crypto_shared.o: \
  D:\Nordic\components\libraries\crypto\nrf_crypto_shared.h \
  d:\nordic\components\libraries\util\sdk_macros.h \
  d:\nordic\components\libraries\util\nrf_assert.h \
- D:/SEGGER/include/stdint.h d:\nordic\modules\nrfx\mdk\nrf.h \
- d:\nordic\modules\nrfx\mdk\nrf52.h \
+ D:/SEGGER_original_file/include/stdint.h \
+ d:\nordic\modules\nrfx\mdk\nrf.h d:\nordic\modules\nrfx\mdk\nrf52.h \
  d:\nordic\components\toolchain\cmsis\include\core_cm4.h \
  d:\nordic\components\toolchain\cmsis\include\core_cmInstr.h \
  d:\nordic\components\toolchain\cmsis\include\cmsis_gcc.h \
@@ -20,15 +20,16 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/nrf_crypto_shared.o: \
  d:\nordic\modules\nrfx\mdk\compiler_abstraction.h \
  D:\Nordic\components\libraries\crypto\nrf_crypto_mem.h \
  d:\nordic\components\libraries\util\sdk_common.h \
- D:/SEGGER/include/stdbool.h D:/SEGGER/include/string.h \
- D:/SEGGER/include/__crossworks.h \
+ D:/SEGGER_original_file/include/stdbool.h \
+ D:/SEGGER_original_file/include/string.h \
+ D:/SEGGER_original_file/include/__crossworks.h \
  d:\nordic\components\libraries\util\nordic_common.h \
  d:\nordic\modules\nrfx\mdk\compiler_abstraction.h \
  d:\nordic\components\libraries\util\sdk_os.h \
  d:\nordic\components\libraries\util\sdk_errors.h \
  d:\nordic\components\softdevice\s132\headers\nrf_error.h \
  d:\nordic\components\libraries\util\app_util.h \
- D:/SEGGER/include/stddef.h \
+ D:/SEGGER_original_file/include/stddef.h \
  d:\nordic\components\softdevice\s132\headers\nrf52\nrf_mbr.h \
  d:\nordic\components\softdevice\s132\headers\nrf_svc.h \
  d:\nordic\components\libraries\util\sdk_macros.h \
