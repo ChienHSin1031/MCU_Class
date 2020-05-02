@@ -1,0 +1,21 @@
+				do{
+					
+					if(HY_ProcessEventHandler(nEvent) != RLT_SUCCESS)
+					{
+							//WINDOW *pWin = NULL;
+				
+							//pWin = HLX_GetCurrentWindow();
+							//HLX_ProcWindowEvent(pWin, nEvent);		
+					}
+					
+					
+					nEvent = HY_GetMsgQ();
+					
+				}while(nEvent != INVALID_EVENT);
+				
+				
+#define INVALID_EVENT				-1
+
+
+
+#define	EVENT_NULL                                          0x00

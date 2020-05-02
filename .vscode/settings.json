@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "delete_bonds.h": "c",
+        "timers_init.h": "c",
+        "gap_params_init.h": "c",
+        "pm_evt_handler.h": "c",
+        "gatt_init.h": "c",
+        "on_conn_params_evt.h": "c",
+        "advertising_init.h": "c",
+        "power_management_init.h": "c",
+        "sleep_mode_enter.h": "c"
+    }
+}
