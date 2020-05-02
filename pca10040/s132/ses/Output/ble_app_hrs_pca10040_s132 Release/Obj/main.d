@@ -130,4 +130,8 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/main.o: \
  D:/Nordic/examples/ble_peripheral/ble_app_hrs/HY/HY_Framework.h \
  D:/Nordic/examples/ble_peripheral/ble_app_hrs/HY/HY_Type.h \
  D:/Nordic/examples/ble_peripheral/ble_app_hrs/HY/HY_Event.h \
- D:/Nordic/examples/ble_peripheral/ble_app_hrs/HY/HY_MsgQ.h
+ D:/Nordic/examples/ble_peripheral/ble_app_hrs/HY/Message.h \
+ d:\nordic\modules\nrfx\drivers\include\nrfx_gpiote.h \
+ d:\nordic\modules\nrfx\hal\nrf_gpiote.h \
+ d:\nordic\modules\nrfx\hal\nrf_gpio.h \
+ D:/Nordic/examples/ble_peripheral/ble_app_hrs/HY/HY_GPIOTE.h

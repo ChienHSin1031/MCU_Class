@@ -653,10 +653,12 @@ static void sleep_mode_enter(void)
 
     err_code = bsp_indication_set(BSP_INDICATE_IDLE);
     APP_ERROR_CHECK(err_code);
-
+    
+    /*
     // Prepare wakeup buttons.
     err_code = bsp_btn_ble_sleep_mode_prepare();
     APP_ERROR_CHECK(err_code);
+    */
 
     // Go to system-off mode (this function will not return; wakeup will cause a reset).
     err_code = sd_power_system_off();
@@ -909,6 +911,7 @@ static void advertising_init(void)
  *
  * @param[out] p_erase_bonds  Will be true if the clear bonding button was pressed to wake the application up.
  */
+ /*
 static void buttons_leds_init(bool * p_erase_bonds)
 {
     ret_code_t err_code;
@@ -922,7 +925,7 @@ static void buttons_leds_init(bool * p_erase_bonds)
 
     *p_erase_bonds = (startup_event == BSP_EVENT_CLEAR_BONDING_DATA);
 }
-
+*/
 
 /**@brief Function for initializing the nrf log module.
  */
@@ -998,8 +1001,7 @@ void ble_init(void)
 
     // Initialize.
     log_init();
-    //timers_init();
-    buttons_leds_init(&erase_bonds);
+//    buttons_leds_init(&erase_bonds);
     power_management_init();
     ble_stack_init();
     gap_params_init();

@@ -113,6 +113,8 @@
 "Output/ble_app_hrs_pca10040_s132 Release/Obj/HY_TIMER.o"
 "Output/ble_app_hrs_pca10040_s132 Release/Obj/HY_MsgQ.o"
 "Output/ble_app_hrs_pca10040_s132 Release/Obj/HY_Framework.o"
+"Output/ble_app_hrs_pca10040_s132 Release/Obj/Message.o"
+"Output/ble_app_hrs_pca10040_s132 Release/Obj/HY_GPIOTE.o"
 "D:/SEGGER/lib/libdebugio_mempoll_v7em_fpv4_sp_d16_hard_t_le_eabi.a"
 "D:/SEGGER/lib/libm_v7em_fpv4_sp_d16_hard_t_le_eabi.a"
 "D:/SEGGER/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a"

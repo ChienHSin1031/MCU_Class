@@ -10,8 +10,7 @@
 #define EVENT_BLE_HEART_RATE_UPDATE 0x80
 #define Event_HY_test_Event 0x81
 
-#define EVENT_one_second 0x82
-#define EVENT_seven_seconds 0x83
+//#define EVENT_one_second 0x82
 
 
 

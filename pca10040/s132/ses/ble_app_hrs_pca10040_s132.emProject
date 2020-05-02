@@ -185,6 +185,7 @@
     </folder>
     <configuration
       Name="Release"
+      arm_target_interface_type="JTAG"
       c_preprocessor_definitions="NO_VTOR_CONFIG"
       c_user_include_directories="."
       linker_section_placement_macros="" />
@@ -198,10 +199,15 @@
       <file file_name="../../../HY/HY_Type.h" />
       <file file_name="../../../HY/HY_BLE.h" />
       <file file_name="../../../HY/HY_MsgQ.h" />
+      <file file_name="../../../HY/Message.c" />
+      <file file_name="../../../HY/Message.h" />
+      <file file_name="../../../HY/HY_GPIOTE.c" />
+      <file file_name="../../../HY/HY_GPIOTE.h" />
     </folder>
   </project>
   <configuration
     Name="Release"
+    arm_target_interface_type="SWD"
     c_preprocessor_definitions="NDEBUG"
     c_user_include_directories="."
     gcc_optimization_level="Optimize For Size" />
