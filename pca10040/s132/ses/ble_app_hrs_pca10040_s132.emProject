@@ -203,6 +203,8 @@
       <file file_name="../../../HY/Message.h" />
       <file file_name="../../../HY/HY_GPIOTE.c" />
       <file file_name="../../../HY/HY_GPIOTE.h" />
+      <file file_name="../../../HY/HY_Button.c" />
+      <file file_name="../../../HY/HY_Button.h" />
     </folder>
   </project>
   <configuration

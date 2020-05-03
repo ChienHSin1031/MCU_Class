@@ -47,7 +47,7 @@
 // when timeout run one time
 static void HY_BLE_Update_HeartRate_Event(void){
 
-  static heart=60;
+  static int heart=60;
 
   NRF_LOG_INFO("HY_BLE_Update_HeartRate_Event");
   ble_hearrate_update(heart++);
