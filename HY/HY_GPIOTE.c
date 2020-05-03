@@ -16,10 +16,29 @@
 
 APP_TIMER_DEF(m_button_action);
 
+
+void HY_Page1_Event(){
+  NRF_LOG_INFO("Short Event");
+
+}
+
+
+void HY_LongPress_Event(){
+  NRF_LOG_INFO("LongPress Event");
+
+}
+
+
+
 static void button_timeout_handler(void * p_context)
 { 
      uint32_t err_code;
      static uint32_t cnt;
+     void *short_event_ptr;
+     short_event_ptr = HY_Page1_Event;
+     void *long_event_ptr;
+     long_event_ptr = HY_LongPress_Event;
+
 
      if (app_button_is_pushed(0))
      {
@@ -28,7 +47,9 @@ static void button_timeout_handler(void * p_context)
          if ( cnt >= LONG_PRESS(2000))
          {
              cnt = 0;
-             NRF_LOG_INFO("Long Button press2");
+             //NRF_LOG_INFO("Long Button press2");
+             PostMessage(long_event_ptr,0 ,0);
+
          }
          else
          {
@@ -41,7 +62,8 @@ static void button_timeout_handler(void * p_context)
      else
      {
           cnt = 0; // reset counter variable
-          NRF_LOG_INFO("Short button press2");
+          //NRF_LOG_INFO("Short button press2");
+          PostMessage(short_event_ptr, 0, 0);
      }
 }
 
