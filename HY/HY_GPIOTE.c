@@ -17,9 +17,41 @@
 APP_TIMER_DEF(m_button_action);
 
 
-void HY_Page1_Event(){
-  NRF_LOG_INFO("Short Event");
+static int page;
 
+void HY_ShortPress_Event(){
+  
+  NRF_LOG_INFO("Short Event");
+  
+  switch(page){
+    case 1:
+      Page1();
+      page++;
+      break;
+    case 2:
+      Page2();
+      page++;
+      break;
+
+    case 3:
+      Page3();
+      page = 1;
+      break;
+
+  }
+
+}
+
+void Page1(){
+    NRF_LOG_INFO("Page1");
+}
+
+void Page2(){
+    NRF_LOG_INFO("Page2");
+}
+
+void Page3(){
+    NRF_LOG_INFO("Page3");
 }
 
 
@@ -35,7 +67,7 @@ static void button_timeout_handler(void * p_context)
      uint32_t err_code;
      static uint32_t cnt;
      void *short_event_ptr;
-     short_event_ptr = HY_Page1_Event;
+     short_event_ptr = HY_ShortPress_Event;
      void *long_event_ptr;
      long_event_ptr = HY_LongPress_Event;
 
@@ -85,6 +117,7 @@ static void button_callback(uint8_t pin_no, uint8_t button_action)
 static void buttons_init()
 {
       uint32_t err_code;
+       page = 1;
       
       static app_button_cfg_t  button_cfg;
 

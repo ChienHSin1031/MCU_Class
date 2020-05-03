@@ -79,7 +79,6 @@ int main(void){
     HY_initFramework();
     TIM_Init();
     ble_init();
-    //HY_gpio_init();
     HY_buttons_init();
         
 
