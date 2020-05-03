@@ -43,13 +43,16 @@
 #include "nrfx_gpiote.h"
 #include "HY_GPIOTE.h"
 
+#include "app_button.h"
+#include "app_timer.h"
+
 
 // when timeout run one time
 static void HY_BLE_Update_HeartRate_Event(void){
 
   static int heart=60;
 
-  NRF_LOG_INFO("HY_BLE_Update_HeartRate_Event");
+  //NRF_LOG_INFO("HY_BLE_Update_HeartRate_Event");
   ble_hearrate_update(heart++);
 
   if (heart > 200)
@@ -59,7 +62,7 @@ static void HY_BLE_Update_HeartRate_Event(void){
 
 
 static void Timeout_1000ms_Event(int prm0,int prm1){
-    NRF_LOG_INFO("Timeout_1000ms_Event");
+    //NRF_LOG_INFO("Timeout_1000ms_Event");
     HY_BLE_Update_HeartRate_Event();
 
 }
@@ -69,7 +72,6 @@ static void Timeout_20ms_Event(int prm0,int prm1){
 }
 
 
-
 int main(void){
     
     int nEvent = INVALID_EVENT;  //-1
@@ -77,8 +79,8 @@ int main(void){
     HY_initFramework();
     TIM_Init();
     ble_init();
-    HY_gpio_init();
-
+    //HY_gpio_init();
+    HY_buttons_init();
         
 
     TIM_RegisterHandler(Timeout_1000ms_Event, 1000);

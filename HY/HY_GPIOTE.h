@@ -2,6 +2,6 @@
 #define HY_GPIOTE_H
 
 
-void HY_gpio_init();
 
+void HY_buttons_init();
 #endif
