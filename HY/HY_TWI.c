@@ -13,7 +13,18 @@
 #define CW6301_Read_PS          (0x13 >> 1)  //read modr address
 
 #define CW6301_OUT1                 0x0A
-#define CW6301_Vol                 (0x80|0x37)  //2.7mV
+#define OUT1_Vol                 (0x80|0x37)  //2.7mV
+
+#define CW6301_OUT2                 0x0B
+#define OUT2_Vol                 (0x80|0x3C)  //3.2mV
+
+#define CW6301_OUT3                 0x0C
+#define OUT3_Vol                 (0x80|0x1C)  //1.8mV
+
+#define CW6301_OUT4                 0x0D
+#define OUT4_Vol                 (0x80|0x1C)  //1.8mV
+
+
 
 #define CW6301_System_Check         0x00
 
@@ -24,6 +35,7 @@ static volatile bool m_xfer_done = false;
 static const nrf_drv_twi_t m_twi_master = NRF_DRV_TWI_INSTANCE(0);
 
 void twi_handler(nrf_drv_twi_evt_t const * p_event, void * p_context);
+
 
 /*
 void ret_code_t HY_twi_master_init(void){
@@ -78,21 +90,14 @@ void HY_Power_Supply_Set(){
     
   ret_code_t err_code;
 
-  uint8_t reg[1]= {CW6301_OUT1, CW6301_Vol};
+  uint8_t reg[7]= {CW6301_OUT1, OUT1_Vol,CW6301_OUT2, OUT2_Vol, CW6301_OUT3, OUT3_Vol, CW6301_OUT4, OUT4_Vol};
   //uint8_t reg[0]= CW6301_System_Check;
   err_code = nrf_drv_twi_tx(&m_twi_master, CW6301_Write_PS, reg, sizeof(reg), false);
   APP_ERROR_CHECK(err_code);
   nrf_drv_twi_enable(&m_twi_master);
   while (m_xfer_done == false);
   NRF_LOG_INFO("go nrf_drv_twi_tx");
-  //read_sensor_data();
-
-  /*
-  uint8_t Chk = CW6301_System_Check;
-  err_code = nrf_drv_twi_tx(&m_twi_master, CW6301_Write_PS, Chk, sizeof(Chk), false);
-  APP_ERROR_CHECK(err_code);
-  while (m_xfer_done == false);
-  */
+  
 }
 
 
