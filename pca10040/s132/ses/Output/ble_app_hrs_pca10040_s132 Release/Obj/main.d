@@ -136,4 +136,11 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/main.o: \
  d:\nordic\modules\nrfx\drivers\include\nrfx_gpiote.h \
  d:\nordic\modules\nrfx\hal\nrf_gpiote.h \
  d:\nordic\modules\nrfx\hal\nrf_gpio.h \
- D:/Nordic/examples/ble_peripheral/ble_app_hrs/HY/HY_GPIOTE.h
+ D:/Nordic/examples/ble_peripheral/ble_app_hrs/HY/HY_GPIOTE.h \
+ D:/Nordic/examples/ble_peripheral/ble_app_hrs/HY/HY_TWI.h \
+ d:\nordic\integration\nrfx\legacy\nrf_drv_twi.h \
+ d:\nordic\modules\nrfx\drivers\include\nrfx_twim.h \
+ d:\nordic\modules\nrfx\drivers\include\nrfx_twi_twim.h \
+ d:\nordic\modules\nrfx\hal\nrf_twim.h \
+ d:\nordic\modules\nrfx\drivers\include\nrfx_twi.h \
+ d:\nordic\modules\nrfx\hal\nrf_twi.h

@@ -46,6 +46,10 @@
 #include "app_button.h"
 #include "app_timer.h"
 
+#include "HY_TWI.h"
+#include "nrf_drv_twi.h"
+
+
 
 // when timeout run one time
 static void HY_BLE_Update_HeartRate_Event(void){
@@ -75,12 +79,14 @@ static void Timeout_20ms_Event(int prm0,int prm1){
 int main(void){
     
     int nEvent = INVALID_EVENT;  //-1
+
     Message_Init();
     HY_initFramework();
     TIM_Init();
     ble_init();
     HY_buttons_init();
-        
+    twi_master_init();
+    HY_Power_Supply_Set();
 
     TIM_RegisterHandler(Timeout_1000ms_Event, 1000);
     TIM_RegisterHandler(Timeout_20ms_Event, 20);
