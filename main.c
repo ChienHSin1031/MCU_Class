@@ -46,8 +46,9 @@
 #include "app_button.h"
 #include "app_timer.h"
 
-#include "HY_TWI.h"
+#include "HY_I2C.h"
 #include "nrf_drv_twi.h"
+
 
 
 
@@ -78,20 +79,29 @@ static void Timeout_20ms_Event(int prm0,int prm1){
 
 int main(void){
     
+    uint32_t Data ;
+
     int nEvent = INVALID_EVENT;  //-1
 
     Message_Init();
+
     HY_initFramework();
+
     TIM_Init();
+
     ble_init();
+
     HY_buttons_init();
-    twi_master_init();
-    HY_Power_Supply_Set();
+
+    HY_initI2C();
+
+    //HY_I2C1_read_reg(CW6301_Read_PS, register_address, sizeof(register_address), Data);
+    HY_I2C0_write_reg(CW6301_Write_PS, CW6301_OUT1, OUT1_Vol);
 
     TIM_RegisterHandler(Timeout_1000ms_Event, 1000);
     TIM_RegisterHandler(Timeout_20ms_Event, 20);
-    
 
+    
       while (1)
       {
             while (ProcessMessage());
@@ -99,8 +109,6 @@ int main(void){
             ble_hy_idele_state_handle();
 
       }
-      
-        
 }
 
 

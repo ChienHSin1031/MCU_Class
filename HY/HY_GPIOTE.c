@@ -71,7 +71,6 @@ static void button_timeout_handler(void * p_context)
      void *long_event_ptr;
      long_event_ptr = HY_LongPress_Event;
 
-
      if (app_button_is_pushed(0))
      {
          cnt++;
@@ -136,6 +135,7 @@ static void buttons_init()
       err_code = app_timer_create(&m_button_action, APP_TIMER_MODE_SINGLE_SHOT, button_timeout_handler);
       APP_ERROR_CHECK(err_code);
 }
+
 
 void HY_buttons_init(){
   buttons_init();

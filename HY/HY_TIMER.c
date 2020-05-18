@@ -82,9 +82,7 @@ static void timeout_1000ms_handler(void)
     TIM_HANDLER *pHandler;
     
     pHandler = Handler1sec;
-    
-
-    
+      
     // scan the handler table and call handler functions
     for (int i = 0; i < MAX_TIMER_FUNC; i++, pHandler++)
     {
