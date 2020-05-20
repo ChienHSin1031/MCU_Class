@@ -66,8 +66,8 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="82" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="73" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="27" y="17" useTextEdit="1" openedFrom="D:/Nordic/examples/ble_peripheral/ble_app_hrs/main.c" useBinaryEdit="0" left="0" path="../../../HY/HY_TWI.c" selected="1" top="20" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="82" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="55" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="17" useTextEdit="1" openedFrom="D:/Nordic/examples/ble_peripheral/ble_app_hrs/main.c" useBinaryEdit="0" left="0" path="../../../HY/HY_TWI.c" selected="1" top="36" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="5" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../HY/HY_TWI.h" selected="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="99" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_error_weak.c" selected="0" top="90" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="149" useTextEdit="1" openedFrom="D:/Nordic/examples/ble_peripheral/ble_app_hrs/HY/HY_TWI.c" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/nrf_drv_twi.c" selected="0" top="139" codecName="Default"/>
