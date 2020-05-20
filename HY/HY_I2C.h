@@ -31,6 +31,8 @@
 
 
 HY_initI2C();
+int HY_I2C0_read_reg(uint8_t address,uint8_t cmdID, uint8_t bytes, uint8_t *pRegVal);
+int HY_I2C0_write_reg(uint8_t address, uint8_t cmdID, uint8_t regVal);
 
 
 #endif

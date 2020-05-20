@@ -213,6 +213,10 @@
       <file file_name="../../../../../../integration/nrfx/legacy/nrf_drv_twi.h" />
       <file file_name="../../../HY/HY_I2C.h" />
       <file file_name="../../../HY/HY_I2C.c" />
+      <file file_name="../../../HY/HY_SPI.c" />
+      <file file_name="../../../HY/HY_SPI.h" />
+      <file file_name="../../../../../../integration/nrfx/legacy/nrf_drv_spi.c" />
+      <file file_name="../../../../../../integration/nrfx/legacy/nrf_drv_spi.h" />
     </folder>
   </project>
   <configuration
