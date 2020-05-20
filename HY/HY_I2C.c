@@ -22,6 +22,7 @@ extern "C" {
 #include "nrf_drv_twi.h"
 #include "nrf_delay.h"
 #include "HY_I2C.h"
+#include "nrf_log.h"
 
 #define HW_I2C_ID nrf_drv_twi_t	
 
@@ -98,6 +99,7 @@ int HY_I2C0_read_reg(uint8_t address,uint8_t cmdID, uint8_t bytes, uint8_t *pReg
 	if (cur_dev_cfg != I2C0)
 	{
 			uint32_t err_code;
+                        NRF_LOG_INFO("1");
 		
 			if (cur_dev_cfg != NULL)
 				
@@ -117,8 +119,8 @@ int HY_I2C0_read_reg(uint8_t address,uint8_t cmdID, uint8_t bytes, uint8_t *pReg
 					.address = address,           ///< Slave address.
 					.primary_length = i,          ///< Number of bytes transferred.
 					.secondary_length = bytes,    ///< Number of bytes transferred.
-					.p_primary_buf = send_buf,    ///< Pointer to transferred data.
-					.p_secondary_buf = pRegVal,   ///< Pointer to transferred data.
+					.p_primary_buf = send_buf,    ///< Pointer to tx data.
+					.p_secondary_buf = pRegVal,   ///< Pointer to Rx data.
 	};	
 	
 					
@@ -197,7 +199,7 @@ int HY_I2C1_read_reg(uint8_t address,uint8_t cmdID, uint8_t bytes, uint8_t *pReg
 					
 	int result = nrf_drv_twi_xfer(&((i2c_device_config *)I2C1)->bus_id, &xfer_des, 0);
 	
-	return 0; 
+	return RLT_SUCCESS; 
 	
 }
 
@@ -222,7 +224,7 @@ int HY_I2C1_write_reg(uint8_t address,uint8_t cmdID, uint8_t regVal)
 	
 	int i = 0;
 	send_buf[i++] = cmdID;
-	send_buf[i++] = regVal;	
+	send_buf[i++] = regVal;
 	
 	nrf_drv_twi_xfer_desc_t xfer_des = {
 					.type = NRF_DRV_TWI_XFER_TX,             ///< Type of transfer.

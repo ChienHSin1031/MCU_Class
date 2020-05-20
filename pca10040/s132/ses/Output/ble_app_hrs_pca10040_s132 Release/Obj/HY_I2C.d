@@ -64,4 +64,12 @@ Output/ble_app_hrs_pca10040_s132\ Release/Obj/HY_I2C.o: \
  d:\nordic\components\libraries\log\nrf_log_types.h \
  d:\nordic\components\libraries\util\app_error.h \
  d:\nordic\components\libraries\delay\nrf_delay.h \
- D:\Nordic\examples\ble_peripheral\ble_app_hrs\HY\HY_I2C.h
+ D:\Nordic\examples\ble_peripheral\ble_app_hrs\HY\HY_I2C.h \
+ d:\nordic\components\libraries\log\nrf_log.h \
+ d:\nordic\components\libraries\util\sdk_common.h \
+ d:\nordic\components\libraries\util\sdk_os.h \
+ d:\nordic\components\libraries\util\app_util.h \
+ d:\nordic\components\libraries\util\sdk_macros.h \
+ d:\nordic\components\libraries\strerror\nrf_strerror.h \
+ d:\nordic\components\libraries\log\src\nrf_log_internal.h \
+ d:\nordic\components\libraries\log\nrf_log_types.h

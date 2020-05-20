@@ -17,7 +17,7 @@
 #define OUT1_Vol                 (0x80|0x37)  //2.7mV
 
 #define CW6301_OUT2                 0x0B
-#define OUT2_Vol                 (0x80|0x3C)  //3.2mV
+#define OUT2_Vol                 (0x80|0x00)  //3.2mV
 
 #define CW6301_OUT3                 0x0C
 #define OUT3_Vol                 (0x80|0x1C)  //1.8mV
@@ -25,12 +25,12 @@
 #define CW6301_OUT4                 0x0D
 #define OUT4_Vol                 (0x80|0x1C)  //1.8mV
 
-#define register_address  0x00
+#define System_address      0x00
+#define Charge_address      0x01
+#define Interrupt_address   0x02
 
 
-int HY_initI2C(void);
-int HY_I2C1_read_reg(uint8_t address,uint8_t cmdID, uint8_t bytes, uint8_t *pRegVal);
-int HY_I2C0_write_reg(uint8_t address, uint8_t cmdID, uint8_t regVal);
+HY_initI2C();
 
 
 #endif
