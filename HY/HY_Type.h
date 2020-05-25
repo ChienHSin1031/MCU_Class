@@ -1,5 +1,5 @@
-#ifndef _HLX_TYPE_H_
-#define _HLX_TYPE_H_
+#ifndef _HY_TYPE_H_
+#define _HY_TYPE_H_
 
 
 
@@ -7,7 +7,7 @@ typedef int             BOOL;
 
 typedef void            (*func)();
 
-typedef int		HLX_HANDLE;
+typedef int		HY_HANDLE;
 
 typedef unsigned char	BYTE;
 

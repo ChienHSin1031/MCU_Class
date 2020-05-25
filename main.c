@@ -46,8 +46,12 @@
 #include "app_button.h"
 #include "app_timer.h"
 
-#include "HY_TWI.h"
+#include "HY_I2C.h"
 #include "nrf_drv_twi.h"
+
+#include "HY_SPI.h"
+#include "nrf_drv_spi.h"
+
 
 
 
@@ -75,23 +79,55 @@ static void Timeout_20ms_Event(int prm0,int prm1){
     //NRF_LOG_INFO("20ms")
 }
 
+int HY_CW6301(void){
+    uint8_t CW6301_Data[2] = {0} ;
+
+    HY_I2C0_read_reg(CW6301_Write_PS, System_address, sizeof(System_address), &CW6301_Data[0]);
+    HY_I2C0_read_reg(CW6301_Write_PS, Charge_address, sizeof(Charge_address), &CW6301_Data[1]);
+    HY_I2C0_read_reg(CW6301_Write_PS, Interrupt_address, sizeof(Interrupt_address), &CW6301_Data[2]);
+
+    HY_I2C0_write_reg(CW6301_Write_PS, CW6301_OUT1, OUT1_Vol);
+    HY_I2C0_write_reg(CW6301_Write_PS, CW6301_OUT3, OUT3_Vol);
+    HY_I2C0_write_reg(CW6301_Write_PS, CW6301_OUT4, OUT4_Vol);
+
+    NRF_LOG_INFO("CW6301 ID : %02X,%02X,%02X",CW6301_Data[0],CW6301_Data[1],CW6301_Data[2]);
+
+
+    NRF_LOG_INFO("CW6301 Power Supply Set_OK");
+
+    return RLT_SUCCESS;
+}
+
 
 int main(void){
-    
+
+    uint8_t dat[]={0x02, 0x00, 0x01, 0x03};
+
     int nEvent = INVALID_EVENT;  //-1
 
     Message_Init();
-    HY_initFramework();
-    TIM_Init();
-    ble_init();
-    HY_buttons_init();
-    twi_master_init();
-    HY_Power_Supply_Set();
 
+    HY_initFramework();
+
+    TIM_Init();
+
+    ble_init();
+
+    HY_buttons_init();
+
+    HY_initI2C();
+
+    HY_CW6301();
+    
+    HY_W25Q_Flash_check();
+
+    W25Q_Flash_Write(&dat);
+
+    
     TIM_RegisterHandler(Timeout_1000ms_Event, 1000);
     TIM_RegisterHandler(Timeout_20ms_Event, 20);
     
-
+    
       while (1)
       {
             while (ProcessMessage());
@@ -99,8 +135,6 @@ int main(void){
             ble_hy_idele_state_handle();
 
       }
-      
-        
 }
 
 
