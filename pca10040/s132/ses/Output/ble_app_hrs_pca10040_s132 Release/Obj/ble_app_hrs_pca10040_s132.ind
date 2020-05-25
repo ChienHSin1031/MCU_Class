@@ -123,6 +123,7 @@
 "Output/ble_app_hrs_pca10040_s132 Release/Obj/HY_I2C.o"
 "Output/ble_app_hrs_pca10040_s132 Release/Obj/HY_SPI.o"
 "Output/ble_app_hrs_pca10040_s132 Release/Obj/nrf_drv_spi.o"
+"Output/ble_app_hrs_pca10040_s132 Release/Obj/nrfx_spim.o"
 "D:/SEGGER_original_file/lib/libdebugio_mempoll_v7em_fpv4_sp_d16_hard_t_le_eabi.a"
 "D:/SEGGER_original_file/lib/libm_v7em_fpv4_sp_d16_hard_t_le_eabi.a"
 "D:/SEGGER_original_file/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a"

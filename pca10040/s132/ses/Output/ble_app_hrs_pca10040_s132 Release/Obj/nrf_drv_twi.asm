@@ -23,7 +23,7 @@
 twim_evt_handler:
 .LVL0:
 .LFB308:
-	.file 1 "D:\\Nordic\\integration\\nrfx\\legacy\\nrf_drv_twi.c"
+	.file 1 "D:\\Nordic_develop_file\\integration\\nrfx\\legacy\\nrf_drv_twi.c"
 	.loc 1 120 1 view -0
 	@ args = 0, pretend = 0, frame = 16
 	@ frame_needed = 0, uses_anonymous_args = 0
@@ -82,7 +82,7 @@ twim_evt_handler:
 	.type	nrfx_coredep_delay_us.part.0.constprop.0, %function
 nrfx_coredep_delay_us.part.0.constprop.0:
 .LFB313:
-	.file 2 "d:\\nordic\\modules\\nrfx\\soc\\nrfx_coredep.h"
+	.file 2 "../../../../../../modules/nrfx/soc/nrfx_coredep.h"
 	.loc 2 136 22 is_stmt 1 view -0
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
@@ -174,7 +174,7 @@ nrf_drv_twi_init:
 	.loc 1 84 5 is_stmt 1 view .LVU43
 .LBB92:
 .LBB93:
-	.file 3 "d:\\nordic\\modules\\nrfx\\hal\\nrf_gpio.h"
+	.file 3 "../../../../../../modules/nrfx/hal/nrf_gpio.h"
 	.loc 3 622 36 is_stmt 0 view .LVU44
 	movs	r6, #1
 .LBE93:
@@ -697,7 +697,7 @@ delay_machine_code.8041:
 .LEFDE4:
 	.text
 .Letext0:
-	.file 4 "D:\\Nordic\\integration\\nrfx\\legacy\\nrf_drv_twi.h"
+	.file 4 "D:\\Nordic_develop_file\\integration\\nrfx\\legacy\\nrf_drv_twi.h"
 	.section	.debug_types,"G",%progbits,wt.5e31f911b716730b,comdat
 	.4byte	0x61
 	.2byte	0x4
@@ -1151,8 +1151,8 @@ delay_machine_code.8041:
 	.byte	0x8
 	.4byte	.LASF12119
 	.byte	0
-	.file 6 "d:\\nordic\\modules\\nrfx\\drivers\\include\\nrfx_twim.h"
-	.file 7 "d:\\nordic\\modules\\nrfx\\drivers\\include\\nrfx_twi.h"
+	.file 6 "../../../../../../modules/nrfx/drivers/include/nrfx_twim.h"
+	.file 7 "../../../../../../modules/nrfx/drivers/include/nrfx_twi.h"
 	.section	.debug_types,"G",%progbits,wt.414dc589b02d3b5f,comdat
 	.4byte	0x5c
 	.2byte	0x4
@@ -1216,7 +1216,7 @@ delay_machine_code.8041:
 	.byte	0x20
 	.byte	0xf7
 	.byte	0
-	.file 8 "d:\\nordic\\modules\\nrfx\\hal\\nrf_twi.h"
+	.file 8 "../../../../../../modules/nrfx/hal/nrf_twi.h"
 	.section	.debug_types,"G",%progbits,wt.465e321b3073bc3d,comdat
 	.4byte	0xa2
 	.2byte	0x4
@@ -1314,7 +1314,7 @@ delay_machine_code.8041:
 	.byte	0x8
 	.4byte	.LASF12119
 	.byte	0
-	.file 9 "d:\\nordic\\modules\\nrfx\\mdk\\nrf52.h"
+	.file 9 "../../../../../../modules/nrfx/mdk/nrf52.h"
 	.section	.debug_types,"G",%progbits,wt.8379cf7f673620f7,comdat
 	.4byte	0x68
 	.2byte	0x4
@@ -1678,7 +1678,7 @@ delay_machine_code.8041:
 	.byte	0x8
 	.4byte	.LASF12119
 	.byte	0
-	.file 11 "d:\\nordic\\modules\\nrfx\\hal\\nrf_twim.h"
+	.file 11 "../../../../../../modules/nrfx/hal/nrf_twim.h"
 	.section	.debug_types,"G",%progbits,wt.1fdc7a80e2a29423,comdat
 	.4byte	0xa2
 	.2byte	0x4
@@ -1881,7 +1881,7 @@ delay_machine_code.8041:
 	.byte	0x7
 	.4byte	.LASF12134
 	.byte	0
-	.file 12 "d:\\nordic\\components\\softdevice\\s132\\headers\\nrf_nvic.h"
+	.file 12 "../../../../../../components/softdevice/s132/headers/nrf_nvic.h"
 	.section	.debug_types,"G",%progbits,wt.23144061f65d3274,comdat
 	.4byte	0x6b
 	.2byte	0x4
@@ -3817,11 +3817,11 @@ delay_machine_code.8041:
 	.byte	0x5
 	.4byte	.LASF12247
 	.byte	0
-	.file 14 "d:\\nordic\\components\\toolchain\\cmsis\\include\\core_cm4.h"
-	.file 15 "d:\\nordic\\modules\\nrfx\\mdk\\system_nrf.h"
-	.file 16 "d:\\nordic\\components\\libraries\\util\\app_util.h"
+	.file 14 "../../../../../../components/toolchain/cmsis/include/core_cm4.h"
+	.file 15 "../../../../../../modules/nrfx/mdk/system_nrf.h"
+	.file 16 "../../../../../../components/libraries/util/app_util.h"
 	.file 17 "D:/SEGGER_original_file/include/stdio.h"
-	.file 18 "d:\\nordic\\components\\libraries\\util\\sdk_errors.h"
+	.file 18 "../../../../../../components/libraries/util/sdk_errors.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
 	.4byte	0xb38
@@ -7224,14 +7224,14 @@ delay_machine_code.8041:
 	.byte	0x5
 	.uleb128 0x2a
 	.4byte	.LASF473
-	.file 19 "d:\\nordic\\modules\\nrfx\\nrfx.h"
+	.file 19 "../../../../../../modules/nrfx/nrfx.h"
 	.byte	0x3
 	.uleb128 0x2c
 	.uleb128 0x13
 	.byte	0x5
 	.uleb128 0x2a
 	.4byte	.LASF474
-	.file 20 "d:\\nordic\\integration\\nrfx\\nrfx_config.h"
+	.file 20 "../../../../../../integration/nrfx/nrfx_config.h"
 	.byte	0x3
 	.uleb128 0x2c
 	.uleb128 0x14
@@ -7246,7 +7246,7 @@ delay_machine_code.8041:
 	.4byte	.Ldebug_macro3
 	.byte	0x4
 	.byte	0x4
-	.file 22 "d:\\nordic\\modules\\nrfx\\drivers\\nrfx_common.h"
+	.file 22 "../../../../../../modules/nrfx/drivers/nrfx_common.h"
 	.byte	0x3
 	.uleb128 0x2d
 	.uleb128 0x16
@@ -7281,7 +7281,7 @@ delay_machine_code.8041:
 	.byte	0x7
 	.4byte	.Ldebug_macro7
 	.byte	0x4
-	.file 24 "d:\\nordic\\modules\\nrfx\\mdk\\nrf.h"
+	.file 24 "../../../../../../modules/nrfx/mdk/nrf.h"
 	.byte	0x3
 	.uleb128 0x30
 	.uleb128 0x18
@@ -7297,14 +7297,14 @@ delay_machine_code.8041:
 	.uleb128 0xe
 	.byte	0x7
 	.4byte	.Ldebug_macro10
-	.file 25 "d:\\nordic\\components\\toolchain\\cmsis\\include\\core_cmInstr.h"
+	.file 25 "../../../../../../components/toolchain/cmsis/include/core_cmInstr.h"
 	.byte	0x3
 	.uleb128 0xd2
 	.uleb128 0x19
 	.byte	0x5
 	.uleb128 0x2a
 	.4byte	.LASF1861
-	.file 26 "d:\\nordic\\components\\toolchain\\cmsis\\include\\cmsis_gcc.h"
+	.file 26 "../../../../../../components/toolchain/cmsis/include/cmsis_gcc.h"
 	.byte	0x3
 	.uleb128 0x3d
 	.uleb128 0x1a
@@ -7312,7 +7312,7 @@ delay_machine_code.8041:
 	.4byte	.Ldebug_macro11
 	.byte	0x4
 	.byte	0x4
-	.file 27 "d:\\nordic\\components\\toolchain\\cmsis\\include\\core_cmFunc.h"
+	.file 27 "../../../../../../components/toolchain/cmsis/include/core_cmFunc.h"
 	.byte	0x3
 	.uleb128 0xd3
 	.uleb128 0x1b
@@ -7320,7 +7320,7 @@ delay_machine_code.8041:
 	.uleb128 0x29
 	.4byte	.LASF1873
 	.byte	0x4
-	.file 28 "d:\\nordic\\components\\toolchain\\cmsis\\include\\core_cmSimd.h"
+	.file 28 "../../../../../../components/toolchain/cmsis/include/core_cmSimd.h"
 	.byte	0x3
 	.uleb128 0xd4
 	.uleb128 0x1c
@@ -7331,7 +7331,7 @@ delay_machine_code.8041:
 	.byte	0x7
 	.4byte	.Ldebug_macro12
 	.byte	0x4
-	.file 29 "d:\\nordic\\modules\\nrfx\\mdk\\system_nrf52.h"
+	.file 29 "../../../../../../modules/nrfx/mdk/system_nrf52.h"
 	.byte	0x3
 	.uleb128 0x97
 	.uleb128 0x1d
@@ -7349,28 +7349,28 @@ delay_machine_code.8041:
 	.byte	0x7
 	.4byte	.Ldebug_macro13
 	.byte	0x4
-	.file 30 "d:\\nordic\\modules\\nrfx\\mdk\\nrf52_bitfields.h"
+	.file 30 "../../../../../../modules/nrfx/mdk/nrf52_bitfields.h"
 	.byte	0x3
 	.uleb128 0x7c
 	.uleb128 0x1e
 	.byte	0x7
 	.4byte	.Ldebug_macro14
 	.byte	0x4
-	.file 31 "d:\\nordic\\modules\\nrfx\\mdk\\nrf51_to_nrf52.h"
+	.file 31 "../../../../../../modules/nrfx/mdk/nrf51_to_nrf52.h"
 	.byte	0x3
 	.uleb128 0x7d
 	.uleb128 0x1f
 	.byte	0x7
 	.4byte	.Ldebug_macro15
 	.byte	0x4
-	.file 32 "d:\\nordic\\modules\\nrfx\\mdk\\nrf52_name_change.h"
+	.file 32 "../../../../../../modules/nrfx/mdk/nrf52_name_change.h"
 	.byte	0x3
 	.uleb128 0x7e
 	.uleb128 0x20
 	.byte	0x7
 	.4byte	.Ldebug_macro16
 	.byte	0x4
-	.file 33 "d:\\nordic\\modules\\nrfx\\mdk\\compiler_abstraction.h"
+	.file 33 "../../../../../../modules/nrfx/mdk/compiler_abstraction.h"
 	.byte	0x3
 	.uleb128 0x93
 	.uleb128 0x21
@@ -7378,14 +7378,14 @@ delay_machine_code.8041:
 	.4byte	.Ldebug_macro17
 	.byte	0x4
 	.byte	0x4
-	.file 34 "d:\\nordic\\modules\\nrfx\\mdk\\nrf_peripherals.h"
+	.file 34 "../../../../../../modules/nrfx/mdk/nrf_peripherals.h"
 	.byte	0x3
 	.uleb128 0x31
 	.uleb128 0x22
 	.byte	0x5
 	.uleb128 0x2b
 	.4byte	.LASF10755
-	.file 35 "d:\\nordic\\modules\\nrfx\\mdk\\nrf52832_peripherals.h"
+	.file 35 "../../../../../../modules/nrfx/mdk/nrf52832_peripherals.h"
 	.byte	0x3
 	.uleb128 0x41
 	.uleb128 0x23
@@ -7396,28 +7396,28 @@ delay_machine_code.8041:
 	.byte	0x7
 	.4byte	.Ldebug_macro19
 	.byte	0x4
-	.file 36 "d:\\nordic\\integration\\nrfx\\nrfx_glue.h"
+	.file 36 "../../../../../../integration/nrfx/nrfx_glue.h"
 	.byte	0x3
 	.uleb128 0x2e
 	.uleb128 0x24
 	.byte	0x5
 	.uleb128 0x2a
 	.4byte	.LASF10910
-	.file 37 "d:\\nordic\\integration\\nrfx\\legacy\\apply_old_config.h"
+	.file 37 "../../../../../../integration/nrfx/legacy/apply_old_config.h"
 	.byte	0x3
 	.uleb128 0x39
 	.uleb128 0x25
 	.byte	0x7
 	.4byte	.Ldebug_macro20
 	.byte	0x4
-	.file 38 "d:\\nordic\\modules\\nrfx\\soc\\nrfx_irqs.h"
+	.file 38 "../../../../../../modules/nrfx/soc/nrfx_irqs.h"
 	.byte	0x3
 	.uleb128 0x3b
 	.uleb128 0x26
 	.byte	0x5
 	.uleb128 0x2a
 	.4byte	.LASF11441
-	.file 39 "d:\\nordic\\modules\\nrfx\\soc\\nrfx_irqs_nrf52832.h"
+	.file 39 "../../../../../../modules/nrfx/soc/nrfx_irqs_nrf52832.h"
 	.byte	0x3
 	.uleb128 0x33
 	.uleb128 0x27
@@ -7425,7 +7425,7 @@ delay_machine_code.8041:
 	.4byte	.Ldebug_macro21
 	.byte	0x4
 	.byte	0x4
-	.file 40 "d:\\nordic\\components\\libraries\\util\\nrf_assert.h"
+	.file 40 "../../../../../../components/libraries/util/nrf_assert.h"
 	.byte	0x3
 	.uleb128 0x3f
 	.uleb128 0x28
@@ -7445,7 +7445,7 @@ delay_machine_code.8041:
 	.uleb128 0x37
 	.uleb128 0x21
 	.byte	0x4
-	.file 41 "d:\\nordic\\components\\libraries\\util\\nordic_common.h"
+	.file 41 "../../../../../../components/libraries/util/nordic_common.h"
 	.byte	0x3
 	.uleb128 0x38
 	.uleb128 0x29
@@ -7454,14 +7454,14 @@ delay_machine_code.8041:
 	.byte	0x4
 	.byte	0x7
 	.4byte	.Ldebug_macro24
-	.file 42 "d:\\nordic\\components\\softdevice\\s132\\headers\\nrf52\\nrf_mbr.h"
+	.file 42 "../../../../../../components/softdevice/s132/headers/nrf52/nrf_mbr.h"
 	.byte	0x3
 	.uleb128 0x85
 	.uleb128 0x2a
 	.byte	0x5
 	.uleb128 0x30
 	.4byte	.LASF11551
-	.file 43 "d:\\nordic\\components\\softdevice\\s132\\headers\\nrf_svc.h"
+	.file 43 "../../../../../../components/softdevice/s132/headers/nrf_svc.h"
 	.byte	0x3
 	.uleb128 0x32
 	.uleb128 0x2b
@@ -7480,14 +7480,14 @@ delay_machine_code.8041:
 	.uleb128 0xb5
 	.uleb128 0x29
 	.byte	0x4
-	.file 44 "d:\\nordic\\components\\libraries\\util\\app_util_platform.h"
+	.file 44 "../../../../../../components/libraries/util/app_util_platform.h"
 	.byte	0x3
 	.uleb128 0xb6
 	.uleb128 0x2c
 	.byte	0x5
 	.uleb128 0x32
 	.4byte	.LASF11851
-	.file 45 "d:\\nordic\\components\\softdevice\\s132\\headers\\nrf_soc.h"
+	.file 45 "../../../../../../components/softdevice/s132/headers/nrf_soc.h"
 	.byte	0x3
 	.uleb128 0x38
 	.uleb128 0x2d
@@ -7498,14 +7498,14 @@ delay_machine_code.8041:
 	.uleb128 0x34
 	.uleb128 0x2b
 	.byte	0x4
-	.file 46 "d:\\nordic\\components\\softdevice\\s132\\headers\\nrf_error.h"
+	.file 46 "../../../../../../components/softdevice/s132/headers/nrf_error.h"
 	.byte	0x3
 	.uleb128 0x35
 	.uleb128 0x2e
 	.byte	0x7
 	.4byte	.Ldebug_macro29
 	.byte	0x4
-	.file 47 "d:\\nordic\\components\\softdevice\\s132\\headers\\nrf_error_soc.h"
+	.file 47 "../../../../../../components/softdevice/s132/headers/nrf_error_soc.h"
 	.byte	0x3
 	.uleb128 0x36
 	.uleb128 0x2f
@@ -7525,7 +7525,7 @@ delay_machine_code.8041:
 	.uleb128 0x3b
 	.uleb128 0x28
 	.byte	0x4
-	.file 48 "d:\\nordic\\components\\libraries\\util\\app_error.h"
+	.file 48 "../../../../../../components/libraries/util/app_error.h"
 	.byte	0x3
 	.uleb128 0x3c
 	.uleb128 0x30
@@ -7551,7 +7551,7 @@ delay_machine_code.8041:
 	.byte	0x7
 	.4byte	.Ldebug_macro34
 	.byte	0x4
-	.file 49 "d:\\nordic\\components\\libraries\\util\\app_error_weak.h"
+	.file 49 "../../../../../../components/libraries/util/app_error_weak.h"
 	.byte	0x3
 	.uleb128 0x3b
 	.uleb128 0x31
@@ -7576,7 +7576,7 @@ delay_machine_code.8041:
 	.byte	0x5
 	.uleb128 0xcd
 	.4byte	.LASF12005
-	.file 50 "d:\\nordic\\modules\\nrfx\\soc\\nrfx_atomic.h"
+	.file 50 "../../../../../../modules/nrfx/soc/nrfx_atomic.h"
 	.byte	0x3
 	.uleb128 0xd1
 	.uleb128 0x32
@@ -7596,14 +7596,14 @@ delay_machine_code.8041:
 	.byte	0x4
 	.byte	0x7
 	.4byte	.Ldebug_macro40
-	.file 51 "d:\\nordic\\components\\libraries\\util\\sdk_resources.h"
+	.file 51 "../../../../../../components/libraries/util/sdk_resources.h"
 	.byte	0x3
 	.uleb128 0x137
 	.uleb128 0x33
 	.byte	0x5
 	.uleb128 0x2d
 	.4byte	.LASF12031
-	.file 52 "d:\\nordic\\components\\softdevice\\s132\\headers\\nrf_sd_def.h"
+	.file 52 "../../../../../../components/softdevice/s132/headers/nrf_sd_def.h"
 	.byte	0x3
 	.uleb128 0x34
 	.uleb128 0x34
@@ -7616,7 +7616,7 @@ delay_machine_code.8041:
 	.byte	0x7
 	.4byte	.Ldebug_macro43
 	.byte	0x4
-	.file 53 "d:\\nordic\\modules\\nrfx\\drivers\\nrfx_errors.h"
+	.file 53 "../../../../../../modules/nrfx/drivers/nrfx_errors.h"
 	.byte	0x3
 	.uleb128 0x2f
 	.uleb128 0x35
@@ -7631,7 +7631,7 @@ delay_machine_code.8041:
 	.byte	0x5
 	.uleb128 0x2a
 	.4byte	.LASF12052
-	.file 54 "d:\\nordic\\modules\\nrfx\\drivers\\include\\nrfx_twi_twim.h"
+	.file 54 "../../../../../../modules/nrfx/drivers/include/nrfx_twi_twim.h"
 	.byte	0x3
 	.uleb128 0x2d
 	.uleb128 0x36
@@ -7668,7 +7668,7 @@ delay_machine_code.8041:
 	.byte	0x7
 	.4byte	.Ldebug_macro46
 	.byte	0x4
-	.file 55 "d:\\nordic\\components\\libraries\\delay\\nrf_delay.h"
+	.file 55 "../../../../../../components/libraries/delay/nrf_delay.h"
 	.byte	0x3
 	.uleb128 0x2a
 	.uleb128 0x37
@@ -9134,7 +9134,7 @@ delay_machine_code.8041:
 	.uleb128 0
 	.4byte	.LASF465
 	.byte	0
-	.section	.debug_macro,"G",%progbits,wm4.sdk_config.h.44.c6ac086529836bfa62eaefcfb4d136ad,comdat
+	.section	.debug_macro,"G",%progbits,wm4.sdk_config.h.44.a26fc3479e3e67507a12d5fe23fe0448,comdat
 .Ldebug_macro3:
 	.2byte	0x4
 	.byte	0
@@ -44879,8 +44879,6 @@ delay_machine_code.8041:
 	.ascii	"_Pos\000"
 .LASF6634:
 	.ascii	"PDM_GAINL_GAINL_MaxGain (0x50UL)\000"
-.LASF4112:
-	.ascii	"MWU_INTEN_PREGION1RA_Enabled (1UL)\000"
 .LASF5433:
 	.ascii	"GPIO_OUT_PIN20_Low (0UL)\000"
 .LASF4740:
@@ -45596,6 +45594,8 @@ delay_machine_code.8041:
 	.ascii	"POWER_SYSTEMOFF_SYSTEMOFF_Enter (1UL)\000"
 .LASF2736:
 	.ascii	"BPROT_CONFIG1_REGION56_Disabled (0UL)\000"
+.LASF11571:
+	.ascii	"offsetof\000"
 .LASF2116:
 	.ascii	"DWT_CTRL_EXCEVTENA_Pos 18U\000"
 .LASF7302:
@@ -48567,8 +48567,8 @@ delay_machine_code.8041:
 	.ascii	"TIMER_SHORTS_COMPARE3_CLEAR_Pos (3UL)\000"
 .LASF7243:
 	.ascii	"PPI_CHENCLR_CH7_Pos (7UL)\000"
-.LASF142:
-	.ascii	"__UINTPTR_MAX__ 0xffffffffU\000"
+.LASF7459:
+	.ascii	"PWM_INTEN_SEQSTARTED0_Disabled (0UL)\000"
 .LASF3018:
 	.ascii	"BPROT_CONFIG3_REGION114_Pos (18UL)\000"
 .LASF7002:
@@ -49203,6 +49203,8 @@ delay_machine_code.8041:
 	.ascii	"RADIO_INTENSET_BCMATCH_Enabled (1UL)\000"
 .LASF4288:
 	.ascii	"MWU_NMIEN_PREGION0RA_Enabled (1UL)\000"
+.LASF8548:
+	.ascii	"SAADC_INTENCLR_RESULTDONE_Enabled (1UL)\000"
 .LASF8819:
 	.ascii	"SPIM_TXD_AMOUNT_AMOUNT_Pos (0UL)\000"
 .LASF7522:
@@ -52850,8 +52852,6 @@ delay_machine_code.8041:
 	.ascii	"MWU_REGIONENSET_PRGN1WA_Set (1UL)\000"
 .LASF2574:
 	.ascii	"AAR_ADDRPTR_ADDRPTR_Pos (0UL)\000"
-.LASF3096:
-	.ascii	"CCM_SHORTS_ENDKSGEN_CRYPT_Disabled (0UL)\000"
 .LASF78:
 	.ascii	"__WCHAR_MIN__ 0U\000"
 .LASF4058:
@@ -55338,9 +55338,7 @@ delay_machine_code.8041:
 .LASF3535:
 	.ascii	"EGU_INTENSET_TRIGGERED3_Enabled (1UL)\000"
 .LASF926:
-	.ascii	"NRFX_SPIM2_ENABLED 0\000"
-.LASF10760:
-	.ascii	"POWER_COUNT 1\000"
+	.ascii	"NRFX_SPIM2_ENABLED 1\000"
 .LASF2010:
 	.ascii	"SCB_SHCSR_BUSFAULTACT_Pos 1U\000"
 .LASF11835:
@@ -57334,8 +57332,8 @@ delay_machine_code.8041:
 	.ascii	"POWER_RAM_POWERSET_S0RETENTION_On (1UL)\000"
 .LASF2072:
 	.ascii	"ITM_TCR_GTSFREQ_Pos 10U\000"
-.LASF11571:
-	.ascii	"offsetof\000"
+.LASF10503:
+	.ascii	"PPI_CHG0_CH8_Excluded PPI_CHG_CH8_Excluded\000"
 .LASF3161:
 	.ascii	"CLOCK_INTENSET_DONE_Pos (3UL)\000"
 .LASF145:
@@ -58616,7 +58614,7 @@ delay_machine_code.8041:
 	.ascii	"GPIO_LATCH_PIN25_Msk (0x1UL << GPIO_LATCH_PIN25_Pos"
 	.ascii	")\000"
 .LASF923:
-	.ascii	"NRFX_SPIM_ENABLED 0\000"
+	.ascii	"NRFX_SPIM_ENABLED 1\000"
 .LASF11313:
 	.ascii	"TWIM_ONLY (!defined(TWI_PRESENT) && defined(TWIM_PR"
 	.ascii	"ESENT))\000"
@@ -58700,10 +58698,10 @@ delay_machine_code.8041:
 	.ascii	"TASKS_CHG1DIS TASKS_CHG[1].DIS\000"
 .LASF4399:
 	.ascii	"MWU_NMIENCLR_PREGION0RA_Clear (1UL)\000"
+.LASF4112:
+	.ascii	"MWU_INTEN_PREGION1RA_Enabled (1UL)\000"
 .LASF1129:
-	.ascii	"SPI_ENABLED 0\000"
-.LASF10996:
-	.ascii	"NRFX_I2S_CONFIG_INFO_COLOR\000"
+	.ascii	"SPI_ENABLED 1\000"
 .LASF2824:
 	.ascii	"BPROT_CONFIG1_REGION34_Disabled (0UL)\000"
 .LASF1116:
@@ -59432,6 +59430,8 @@ delay_machine_code.8041:
 	.ascii	"MWU_REGIONENSET_RGN0WA_Set (1UL)\000"
 .LASF7604:
 	.ascii	"QDEC_SHORTS_SAMPLERDY_STOP_Pos (1UL)\000"
+.LASF9570:
+	.ascii	"UART_INTENSET_CTS_Pos (0UL)\000"
 .LASF6117:
 	.ascii	"GPIO_DIRSET_PIN26_Msk (0x1UL << GPIO_DIRSET_PIN26_P"
 	.ascii	"os)\000"
@@ -59776,8 +59776,8 @@ delay_machine_code.8041:
 	.ascii	"TWIM_INTENSET_TXSTARTED_Disabled (0UL)\000"
 .LASF9882:
 	.ascii	"UARTE_BAUDRATE_BAUDRATE_Baud19200 (0x004EA000UL)\000"
-.LASF3238:
-	.ascii	"CLOCK_LFCLKSRC_SRC_Synth (2UL)\000"
+.LASF10996:
+	.ascii	"NRFX_I2S_CONFIG_INFO_COLOR\000"
 .LASF4584:
 	.ascii	"MWU_PERREGION_SUBSTATRA_SR29_Access (1UL)\000"
 .LASF3757:
@@ -59985,8 +59985,8 @@ delay_machine_code.8041:
 	.ascii	"QDEC_INTENSET_SAMPLERDY_Set (1UL)\000"
 .LASF5200:
 	.ascii	"NFCT_INTENCLR_TXFRAMEEND_Disabled (0UL)\000"
-.LASF10503:
-	.ascii	"PPI_CHG0_CH8_Excluded PPI_CHG_CH8_Excluded\000"
+.LASF155:
+	.ascii	"__FLT_DECIMAL_DIG__ 9\000"
 .LASF11940:
 	.ascii	"NRF_ERROR_MEMORY_MANAGER_ERR_BASE (0x8100)\000"
 .LASF1909:
@@ -60989,8 +60989,8 @@ delay_machine_code.8041:
 .LASF8004:
 	.ascii	"RADIO_TIFS_TIFS_Msk (0xFFUL << RADIO_TIFS_TIFS_Pos)"
 	.ascii	"\000"
-.LASF9570:
-	.ascii	"UART_INTENSET_CTS_Pos (0UL)\000"
+.LASF4064:
+	.ascii	"LPCOMP_ENABLE_ENABLE_Pos (0UL)\000"
 .LASF6514:
 	.ascii	"GPIO_LATCH_PIN6_Latched (1UL)\000"
 .LASF9359:
@@ -61548,8 +61548,8 @@ delay_machine_code.8041:
 .LASF1981:
 	.ascii	"SCB_CCR_UNALIGN_TRP_Msk (1UL << SCB_CCR_UNALIGN_TRP"
 	.ascii	"_Pos)\000"
-.LASF2405:
-	.ascii	"NRF_BPROT_BASE 0x40000000UL\000"
+.LASF7114:
+	.ascii	"PPI_CHENSET_CH1_Msk (0x1UL << PPI_CHENSET_CH1_Pos)\000"
 .LASF10342:
 	.ascii	"MPU_PROTENSET0_PROTREG12_Set BPROT_CONFIG0_REGION12"
 	.ascii	"_Enabled\000"
@@ -63170,8 +63170,8 @@ delay_machine_code.8041:
 	.ascii	"DWT ((DWT_Type *) DWT_BASE )\000"
 .LASF996:
 	.ascii	"NRFX_TWIS_ASSUME_INIT_AFTER_RESET_ONLY 0\000"
-.LASF7459:
-	.ascii	"PWM_INTEN_SEQSTARTED0_Disabled (0UL)\000"
+.LASF8365:
+	.ascii	"SAADC_INTENSET_CH5LIMITL_Pos (17UL)\000"
 .LASF10721:
 	.ascii	"PPI_CHG3_CH1_Pos PPI_CHG_CH1_Pos\000"
 .LASF5989:
@@ -63391,6 +63391,8 @@ delay_machine_code.8041:
 	.ascii	"O_PACKETPTR_PACKETPTR_Pos)\000"
 .LASF822:
 	.ascii	"NRFX_LPCOMP_CONFIG_LOG_ENABLED 0\000"
+.LASF10760:
+	.ascii	"POWER_COUNT 1\000"
 .LASF3007:
 	.ascii	"BPROT_CONFIG3_REGION117_Msk (0x1UL << BPROT_CONFIG3"
 	.ascii	"_REGION117_Pos)\000"
@@ -64490,9 +64492,6 @@ delay_machine_code.8041:
 	.ascii	"os)\000"
 .LASF6415:
 	.ascii	"GPIO_LATCH_PIN30_Pos (30UL)\000"
-.LASF12362:
-	.ascii	"D:\\Nordic\\examples\\ble_peripheral\\ble_app_hrs\\"
-	.ascii	"pca10040\\s132\\ses\000"
 .LASF4578:
 	.ascii	"MWU_PERREGION_SUBSTATRA_SR30_Msk (0x1UL << MWU_PERR"
 	.ascii	"EGION_SUBSTATRA_SR30_Pos)\000"
@@ -64548,6 +64547,8 @@ delay_machine_code.8041:
 	.ascii	"TWI_SHORTS_BB_STOP_Disabled (0UL)\000"
 .LASF4836:
 	.ascii	"MWU_REGIONENCLR_RGN3WA_Disabled (0UL)\000"
+.LASF3238:
+	.ascii	"CLOCK_LFCLKSRC_SRC_Synth (2UL)\000"
 .LASF9767:
 	.ascii	"UARTE_INTENSET_NCTS_Msk (0x1UL << UARTE_INTENSET_NC"
 	.ascii	"TS_Pos)\000"
@@ -64848,8 +64849,9 @@ delay_machine_code.8041:
 	.ascii	"SystemCoreClock\000"
 .LASF1012:
 	.ascii	"NRFX_TWI_DEFAULT_CONFIG_IRQ_PRIORITY 6\000"
-.LASF4064:
-	.ascii	"LPCOMP_ENABLE_ENABLE_Pos (0UL)\000"
+.LASF10178:
+	.ascii	"MPU_PROTENSET1_PROTREG45_Set BPROT_CONFIG1_REGION45"
+	.ascii	"_Enabled\000"
 .LASF11332:
 	.ascii	"NRFX_TWI_DEFAULT_CONFIG_HOLD_BUS_UNINIT TWI_DEFAULT"
 	.ascii	"_CONFIG_HOLD_BUS_UNINIT\000"
@@ -65343,6 +65345,8 @@ delay_machine_code.8041:
 	.ascii	"SPIM_INTENCLR_END_Clear (1UL)\000"
 .LASF12308:
 	.ascii	"__RAL_error_decoder_head\000"
+.LASF2405:
+	.ascii	"NRF_BPROT_BASE 0x40000000UL\000"
 .LASF6718:
 	.ascii	"POWER_RAMSTATUS_RAMBLOCK3_Pos (3UL)\000"
 .LASF820:
@@ -65593,9 +65597,8 @@ delay_machine_code.8041:
 	.ascii	"UARTE_INTENSET_TXSTOPPED_Set (1UL)\000"
 .LASF6474:
 	.ascii	"GPIO_LATCH_PIN16_Latched (1UL)\000"
-.LASF12361:
-	.ascii	"D:\\Nordic\\integration\\nrfx\\legacy\\nrf_drv_twi."
-	.ascii	"c\000"
+.LASF3096:
+	.ascii	"CCM_SHORTS_ENDKSGEN_CRYPT_Disabled (0UL)\000"
 .LASF2324:
 	.ascii	"CoreDebug_DHCSR_DBGKEY_Pos 16U\000"
 .LASF1238:
@@ -66751,8 +66754,6 @@ delay_machine_code.8041:
 	.ascii	"UDRATE_BAUDRATE_Pos)\000"
 .LASF3302:
 	.ascii	"COMP_INTENSET_DOWN_Set (1UL)\000"
-.LASF155:
-	.ascii	"__FLT_DECIMAL_DIG__ 9\000"
 .LASF2768:
 	.ascii	"BPROT_CONFIG1_REGION48_Disabled (0UL)\000"
 .LASF6339:
@@ -66797,8 +66798,6 @@ delay_machine_code.8041:
 	.ascii	"POWER_RAM_POWER_S1RETENTION_Off (0UL)\000"
 .LASF8238:
 	.ascii	"RTC_EVTENCLR_COMPARE0_Disabled (0UL)\000"
-.LASF8365:
-	.ascii	"SAADC_INTENSET_CH5LIMITL_Pos (17UL)\000"
 .LASF3534:
 	.ascii	"EGU_INTENSET_TRIGGERED3_Disabled (0UL)\000"
 .LASF10475:
@@ -68187,8 +68186,9 @@ delay_machine_code.8041:
 .LASF11860:
 	.ascii	"NRF_ERROR_SOFTDEVICE_NOT_ENABLED (NRF_ERROR_BASE_NU"
 	.ascii	"M + 2)\000"
-.LASF7114:
-	.ascii	"PPI_CHENSET_CH1_Msk (0x1UL << PPI_CHENSET_CH1_Pos)\000"
+.LASF12361:
+	.ascii	"D:\\Nordic_develop_file\\integration\\nrfx\\legacy\\"
+	.ascii	"nrf_drv_twi.c\000"
 .LASF10196:
 	.ascii	"MPU_PROTENSET1_PROTREG41_Disabled BPROT_CONFIG1_REG"
 	.ascii	"ION41_Disabled\000"
@@ -69121,9 +69121,8 @@ delay_machine_code.8041:
 	.ascii	"MWU_INTENSET_PREGION0WA_Disabled (0UL)\000"
 .LASF7888:
 	.ascii	"RADIO_TXPOWER_TXPOWER_Pos (0UL)\000"
-.LASF10178:
-	.ascii	"MPU_PROTENSET1_PROTREG45_Set BPROT_CONFIG1_REGION45"
-	.ascii	"_Enabled\000"
+.LASF4319:
+	.ascii	"MWU_NMIEN_REGION0RA_Disabled (0UL)\000"
 .LASF8605:
 	.ascii	"SAADC_CH_CONFIG_TACQ_Pos (16UL)\000"
 .LASF2641:
@@ -70007,8 +70006,6 @@ delay_machine_code.8041:
 	.ascii	"_Pos)\000"
 .LASF10833:
 	.ascii	"SPIM2_MAX_DATARATE 8\000"
-.LASF4319:
-	.ascii	"MWU_NMIEN_REGION0RA_Disabled (0UL)\000"
 .LASF4296:
 	.ascii	"MWU_NMIEN_REGION3RA_Enabled (1UL)\000"
 .LASF3721:
@@ -71654,6 +71651,9 @@ delay_machine_code.8041:
 .LASF3866:
 	.ascii	"I2S_INTENSET_TXPTRUPD_Msk (0x1UL << I2S_INTENSET_TX"
 	.ascii	"PTRUPD_Pos)\000"
+.LASF12362:
+	.ascii	"D:\\Nordic_develop_file\\examples\\ble_peripheral\\"
+	.ascii	"ble_app_hrs\\pca10040\\s132\\ses\000"
 .LASF10918:
 	.ascii	"NRFX_CLOCK_CONFIG_LOG_ENABLED\000"
 .LASF698:
@@ -71759,8 +71759,8 @@ delay_machine_code.8041:
 .LASF11938:
 	.ascii	"NRF_ERROR_SDK_ERROR_BASE (NRF_ERROR_BASE_NUM + 0x80"
 	.ascii	"00)\000"
-.LASF8548:
-	.ascii	"SAADC_INTENCLR_RESULTDONE_Enabled (1UL)\000"
+.LASF142:
+	.ascii	"__UINTPTR_MAX__ 0xffffffffU\000"
 .LASF12184:
 	.ascii	"TASKS_SUSPEND\000"
 .LASF3179:

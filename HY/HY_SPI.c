@@ -7,10 +7,11 @@ extern "C" {
 #include <stdlib.h>
 #include <string.h>
 
-	
+
 #include "HY_Type.h"
 #include "HY_SPI.h"
 #include "nrf_drv_spi.h"
+#include "nrf_log.h"
 
 	
 
@@ -34,13 +35,13 @@ typedef struct spi_device_config {
 								.hw_init.ss_pin = cs_pin,\
 								.hw_init.bit_order = bit_order_t, \
 								.hw_init.orc       = 0x5A,\
-        }; \
+                          }; \
 				const void *const name = &dev_##name;	
 
 				
 
-//SPI_SLAVE_DEVICE(ACC, 0, 	GPIO_ACC_CS, 0, NRF_DRV_SPI_MODE_0, NRF_DRV_SPI_FREQ_4M, NRF_DRV_SPI_BIT_ORDER_MSB_FIRST)	
-SPI_SLAVE_DEVICE(FLASH, 0,	GPIO_FLASH_CS, 0, NRF_DRV_SPI_MODE_0, NRF_DRV_SPI_FREQ_4M, NRF_DRV_SPI_BIT_ORDER_MSB_FIRST)
+//SPI_SLAVE_DEVICE(ACC, 0,  GPIO_ACC_CS, 0, NRF_DRV_SPI_MODE_0, NRF_DRV_SPI_FREQ_4M, NRF_DRV_SPI_BIT_ORDER_MSB_FIRST)	
+SPI_SLAVE_DEVICE(FLASH, 0,  GPIO_FLASH_CS, 0, NRF_DRV_SPI_MODE_0, NRF_DRV_SPI_FREQ_4M, NRF_DRV_SPI_BIT_ORDER_MSB_FIRST)
 
 static spi_device_config *cur_dev_cfg = NULL;
 				
@@ -49,8 +50,8 @@ typedef void* spi_dev_handle_t;
 int HY_initSPI(void)
 {
 
-		
 	return RLT_SUCCESS;
+
 }
 
 
@@ -94,6 +95,21 @@ static void HY_Write_ReadDataSPI(spi_device_config *t,uint8_t *tx_buf, uint32_t 
 					
 	
 }
+
+
+void HY_W25Q_Flash_check(void){
+
+    uint8_t tx_buffer [] = {0x90, 0x00, 0x00, 0x00}; 
+    uint8_t rx_buffer[7] = {0};
+
+    HY_FLASH_SPI_Write_Read(tx_buffer, sizeof(tx_buffer), rx_buffer,sizeof(rx_buffer));
+
+    
+    NRF_LOG_INFO("W25Q-Manufacturer ID 0x%02x, Device ID 0x%02x", rx_buffer[4], rx_buffer[5]);    
+    
+}
+
+
 /*
 void HY_LCD_SPI_Write(uint8_t *dat, uint32_t length) 
 {
@@ -104,12 +120,21 @@ void HY_ACC_SPI_Write_Read(uint8_t *tx_buf, uint32_t tx_len,uint8_t *rx_buf, uin
 {
 	HY_Write_ReadDataSPI((spi_device_config *)ACC,tx_buf,tx_len,rx_buf,rx_len);
 }
-
+*/
 void HY_FLASH_SPI_Write_Read(uint8_t *tx_buf, uint32_t tx_len,uint8_t *rx_buf, uint32_t rx_len) 
 {
-	HY_Write_ReadDataSPI((spi_device_config *)FLASH,tx_buf,tx_len,rx_buf,rx_len);
+	HY_Write_ReadDataSPI( (spi_device_config *)FLASH, tx_buf, tx_len, rx_buf, rx_len);
 }
-*/
+
+
+void W25Q_Flash_Write(uint8_t *dat){
+
+    HY_WriteDataSPI((spi_device_config *)FLASH, dat, sizeof(dat));
+
+}
+
+
+
 int HY_DeinitSPI(void)
 {
     if (cur_dev_cfg != NULL)
